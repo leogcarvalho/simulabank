@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pix - SimulaBank</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>SimulaBank</h1>
+            <h2>Faça um Pix</h2>
+        </header>
+        <form id="pix-form">
+            <div>
+                <label for="pix-key">Chave Pix:</label>
+                <input type="text" id="pix-key" placeholder="Digite a chave Pix" required>
+            </div>
+            <div>
+                <label for="pix-amount">Valor:</label>
+                <input type="text" id="pix-amount" placeholder="Digite o valor" required>
+            </div>
+            <div>
+                <!-- Exibe o limite de Pix abaixo do campo de valor -->
+                <p id="pix-limit-message">Limite de Pix: R$ 3.000,00</p>
+            </div>
+
+            <!-- Exibição de erro, caso o valor ultrapasse o limite -->
+            <div id="error-message" style="color: red; display: none;">
+                O valor do Pix não pode ultrapassar R$ 3.000,00. Tente novamente.
+            </div>
+
+            <div class="buttons">
+                <button type="submit" class="button">Enviar Pix</button>
+            </div>
+        </form>
+        <div class="buttons">
+            <!-- Botão "Voltar para a Home" com a mesma classe de estilo -->
+            <a href="home.html" class="button">Voltar para a Home</a>
+        </div>
+    </div>
+    <script src="assets/js/pix.js"></script>
+</body>
+</html>

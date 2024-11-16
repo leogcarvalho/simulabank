@@ -1,0 +1,134 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f3f3f3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.login-container {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    max-width: 350px;
+    width: 100%;
+}
+
+h1 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box; /* Garante que o padding não distorça o tamanho do campo */
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.error {
+    color: red;
+    margin-top: 10px;
+}
+
+ul {
+    text-align: left; /* Alinha os exemplos de login à esquerda */
+    margin-top: 20px;
+    padding-left: 20px;
+}
+
+ul li {
+    margin-bottom: 8px;
+    font-size: 0.9em;  /* Diminui o tamanho da fonte */
+    color: #555;       /* Cor mais suave para os exemplos */
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    gap: 15px; /* Adiciona espaçamento entre os botões */
+    margin-top: 20px; /* Adiciona margem superior */
+}
+
+/* Estilo comum para todos os botões */
+.button {
+    background-color: #4CAF50; /* Cor de fundo verde */
+    color: white; /* Cor do texto */
+    padding: 10px 20px; /* Espaçamento interno */
+    border: none; /* Remove bordas */
+    border-radius: 5px; /* Bordas arredondadas */
+    text-align: center; /* Centraliza o texto */
+    text-decoration: none; /* Remove o sublinhado do link */
+    display: inline-block; /* Permite que o botão tenha a aparência correta */
+    font-size: 16px; /* Tamanho da fonte */
+    cursor: pointer; /* Aparece o cursor de pointer */
+    width: 200px; /* Largura fixa para os botões */
+    margin-top: 10px; /* Espaço acima do botão */
+}
+
+/* Separação dos botões */
+.buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 10px; /* Espaçamento entre os botões */
+}
+
+.button:hover {
+    background-color: #45a049; /* Cor de fundo mais escura quando o botão for focado */
+}
+
+
+#balance {
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.checkbox-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.checkbox-group label {
+    margin: 10px 0;
+    font-size: 1rem;
+}
+
+#loan-section {
+    margin-top: 20px;
+}
+
+#loan-message {
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+

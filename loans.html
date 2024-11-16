@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Empréstimos | SimulaBank</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>SimulaBank</h1>
+            <h2>Empréstimos - Empréstimos Pré-aprovados</h2>
+        </header>
+
+        <div id="loan-section">
+            <p id="loan-message"></p>
+            <form id="loan-form">
+                <label>
+                    <input type="radio" name="loan" value="2000"> R$ 2.000,00
+                </label><br>
+                <label>
+                    <input type="radio" name="loan" value="5000"> R$ 5.000,00
+                </label><br>
+                <label>
+                    <input type="radio" name="loan" value="7000"> R$ 7.000,00
+                </label><br>
+                <label>
+                    <input type="radio" name="loan" value="9000"> R$ 9.000,00
+                </label><br><br>
+                <button type="button" id="loan-submit">Contratar Empréstimo</button>
+            </form>
+        </div>
+
+        <div class="buttons">
+            <a href="home.html" class="button">Voltar para Home</a>
+        </div>
+    </div>
+
+    <script src="assets/js/loans.js"></script>
+</body>
+</html>

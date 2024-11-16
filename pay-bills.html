@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagar Boleto - SimulaBank</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>SimulaBank</h1>
+            <h2>Pagar Boleto</h2>
+        </header>
+        <form id="bill-form">
+            <div>
+                <label for="barcode">Código de Barras:</label>
+                <input type="text" id="barcode" placeholder="Digite o código de barras" required>
+            </div>
+            <div>
+                <label for="bill-amount">Valor:</label>
+                <input type="text" id="bill-amount" placeholder="Digite o valor" required>
+            </div>
+
+            <div class="buttons">
+                <button type="submit" class="button">Pagar Boleto</button>
+            </div>
+        </form>
+        <div class="buttons">
+            <a href="home.html" class="button">Voltar para a Home</a>
+        </div>
+    </div>
+    <script src="assets/js/pay-bills.js"></script>
+</body>
+</html>
